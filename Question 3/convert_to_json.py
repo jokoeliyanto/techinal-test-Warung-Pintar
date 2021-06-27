@@ -5,5 +5,5 @@ df = pd.read_csv('https://raw.githubusercontent.com/jokoeliyanto/techinal-test-W
 
 result = df.to_json(orient="columns")
 
-with open('json_file.json', 'w') as json_file:
+with open('warpin_db.json', 'w') as json_file:
     json.dump(result, json_file)
